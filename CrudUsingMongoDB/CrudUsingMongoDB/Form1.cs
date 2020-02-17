@@ -190,5 +190,10 @@ namespace CrudUsingMongoDB
         {
 
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

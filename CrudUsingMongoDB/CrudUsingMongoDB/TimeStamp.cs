@@ -196,10 +196,10 @@ namespace CrudUsingMongoDB
                 if (textBox1.Text != "" || textBox4.Text != "")
                 {
                     SmtpClient client = new SmtpClient();
-                    client.Host = "nscommunity.mojkgb.com";
+                    client.Host = "*************";
                     client.Port = int.Parse("587");
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    client.Credentials = new NetworkCredential("hamza@nscommunity.mojkgb.com", "passwordmym123");
+                    client.Credentials = new NetworkCredential("serverEmail", "password");
                     client.EnableSsl = true;
                     MailMessage message = new MailMessage();
                     message.To.Add(textBox1.Text);

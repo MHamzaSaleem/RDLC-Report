@@ -49,6 +49,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -287,6 +288,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label5);
@@ -310,6 +312,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Form";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.BorderSize = 2;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.RoyalBlue;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.button6.Location = new System.Drawing.Point(223, 335);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(116, 32);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Map";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // Form1
             // 
@@ -351,6 +370,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button6;
     }
 }
 
